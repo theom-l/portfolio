@@ -1,0 +1,52 @@
+
+/* Project tile hover animation */
+.project-tile:hover { 
+    opacity: .5;
+    transform: translate(-6px,-6px);
+    transition-duration: 200ms;
+    transition-timing-function: ease-in-out;
+}
+
+.cover-cta-text {
+    font-weight: lighter;
+}
+
+.cover-cta-text:hover {
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    font-weight: bold;
+}
+
+.navbar-brand:hover {
+    font-weight: bold;
+}
+
+.teal-bg {
+    background-color: #BDC8CE;
+}
+
+.lightgreen-bg {
+    background-color: #E2F5DF;
+}
+
+/* CSS gradient animation */
+.cover-bg {
+	background: linear-gradient(-45deg, #ffffff, #9caad8, #c5bce7, #dbdbdb);
+	background-size: 600% 600%;
+	animation: gradient 20s ease infinite;
+    height: 100%;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
